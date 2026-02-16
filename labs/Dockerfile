@@ -4,7 +4,7 @@
 # The FROM instruction specifies the Parent Image from which you are building.
 
 # FROM [--platform=<platform>] <image>[:<tag>] [AS <name>]
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:21-jdk-alpine
 # Always specify the tag/version, otherwise, it will be set to the latest that might change in time
 # Note: for ARM-based processors, eclipse-temurin:17-jdk-alpine will fail, thus, use "FROM --platform=linux/amd64 eclipse-temurin:17-jdk-alpine".
 
